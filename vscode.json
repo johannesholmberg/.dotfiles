@@ -49,7 +49,6 @@
 
   "[mustache]": {},
 
-  // use emmet for additional syntax
   "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
