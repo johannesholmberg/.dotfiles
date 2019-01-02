@@ -2,7 +2,7 @@
   "editor.fontFamily": "Dank Mono, Fira Code, Inconsolata, Monaco, monospace",
   "editor.fontSize": 18,
   "editor.tabSize": 2,
-  "editor.lineHeight": 25,
+  "editor.lineHeight": 27,
   "editor.letterSpacing": 0.3,
   "editor.renderWhitespace": "all",
   "editor.fontLigatures": true,
@@ -10,8 +10,6 @@
   "editor.snippetSuggestions": "top",
   "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
-
-  "breadcrumbs.enabled": true,
 
   "git.confirmSync": false,
   "git.autofetch": true,
@@ -36,7 +34,6 @@
   "workbench.colorTheme": "Night Owl",
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.tabSizing": "shrink",
-  "workbench.editor.showTabs": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
 
   "window.zoomLevel": 0,
@@ -45,13 +42,32 @@
 
   "auto-rename-tag.activationOnLanguage": ["js", "javascript", "*"],
 
-  "prettier.disableLanguages": ["js"],
-
   "[mustache]": {},
 
   "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "mustache": "html"
-  }
+  },
+
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.symbolPath": "off",
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+
+  "prettier.disableLanguages": ["js"],
+  "prettier.printWidth": 80,
+  "prettier.eslintIntegration": true,
+
+  "markdownlint.config": {
+    "MD026": false
+  },
+
+  "[markdown]": {
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 80
+  },
+
+  "editor.renderControlCharacters": false,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 70
 }
