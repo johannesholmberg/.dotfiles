@@ -61,7 +61,7 @@ ZSH_THEME="amuse"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=$DOTFILES
+ZSH_CUSTOM=$DOTFILES
 
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
@@ -109,7 +109,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-source $DOTFILES/.aliases.sh
+# source $DOTFILES/.aliases.sh
 source $DOTFILES/.functions.sh
 
 # Fix homebrew path

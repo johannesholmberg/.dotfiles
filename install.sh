@@ -30,7 +30,7 @@ brew bundle --file $DOTFILES/Brewfile
 
 
 # Create a Sites directory
-mkdir $HOME/Dev2
+mkdir $HOME/Dev
 
 
 # Clone Github repositories

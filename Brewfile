@@ -11,6 +11,7 @@ brew 'ffmpeg'
 brew 'mackup'
 brew 'mas'
 brew 'tree'
+brew 'gh'
 
 # Apps
 cask 'github'
