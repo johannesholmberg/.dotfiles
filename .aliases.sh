@@ -1,4 +1,4 @@
-alias zshconfig='code ~/.zshrc'
+alias zshconfig='code ~/.dotfiles/.zshrc'
 alias ll='ls -la'
 
 # colored cat command
