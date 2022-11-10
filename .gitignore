@@ -17,6 +17,7 @@ node_modules/
 
 # Logs and databases #
 ######################
+*.lock.json
 *.log
 *.sql
 *.sqlite
