@@ -21,6 +21,8 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+*.zsh_history
+*.zcompdump*
 
 # OS generated files #
 ######################
