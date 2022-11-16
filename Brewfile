@@ -3,6 +3,7 @@
 # Taps
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 
 # Binaries
@@ -15,6 +16,9 @@ brew 'gh'
 
 # Apps
 cask 'github'
+cask 'firefox'
+cask 'screenflow'
+cask 'visual-studio-code'
 
 # Quicklook
 cask 'qlmarkdown'
