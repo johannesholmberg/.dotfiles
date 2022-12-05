@@ -19,6 +19,7 @@ cask 'github'
 cask 'firefox'
 cask 'screenflow'
 cask 'visual-studio-code'
+cask 'bunch'
 
 # Quicklook
 cask 'qlmarkdown'
